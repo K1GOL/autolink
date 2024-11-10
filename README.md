@@ -6,7 +6,7 @@ Autolink is a simple tool to put Linux programs distributed as a tarball/etc. so
 
 `autolink -flags source_path [symlink destination] [file move destination.]`
 
-Files from source path are moved to file move destination, and then executable files are symlinked to the symlink destination path.
+Files from source path are moved to file move destination, and then executable files are symlinked to the symlink destination path. Source path must be a directory.
 
 Defaults:
         
@@ -42,4 +42,4 @@ You can compile the `.sh` script to a binary executable with [shc](https://githu
 
 Now you can even install autolink with itself!
 
-`# ./autolink.sh -itc ./autolink`
+`# ./autolink.sh -ic ./autolink`
