@@ -38,7 +38,7 @@ Help can be viewed with `autolink --help`
 
 You can compile the `.sh` script to a binary executable with [shc](https://github.com/neurobin/shc).
 
-`$ shc -i autolink.sh -o autolink`
+`$ shc -f autolink.sh -o autolink`
 
 Now you can even install autolink with itself!
 
